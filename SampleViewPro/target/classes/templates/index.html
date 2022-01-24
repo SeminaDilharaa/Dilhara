@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head><body>
+	<h1 th:text="${message}"> </h1>
+	
+	<ul th:each="degree:${degrees}">
+		<li th:text="${degree}"></li>
+	</ul>
+<ol th:each="faculty:${faculties}">
+	<li><span th:text="${faculty.value} ${faculty.value}"></span> </li>
+</ol>
+	
+</body>
+</html>
